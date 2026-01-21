@@ -6,12 +6,10 @@ SEED = 42
 
 # Enabled Models for Evaluation
 ENABLED_MODELS = [
-    "elice-helpy-pro",
-    "elice-helpy-edu",
-    "gpt-oss-20b",
-    "gpt-5.2",
-    "gemini-3-pro",
-    "gemini-3-flash"
+    "helpy-pro",        # Helpy Pro Dragon (api.helpy.ai)
+    "gpt-oss-20b",      # via mlapi.run
+    "gpt-5.2",          # via mlapi.run
+    # "helpy-edu",      # Disabled due to 504 Gateway Timeout
 ]
 
 # Enabled Benchmarks
